@@ -14,7 +14,8 @@ library(data.table)
 library(ggpubr)
 library(devtools)
 library(tidyverse)
-##Prepare data for correlation analysis at ASV level, remove negative controls
+##Prepare data for correlation analysis at ASV level, depends on preperation in the qiime2 pipeline see: https://docs.qiime2.org/2022.2/
+#This code is a bit of a mess, there are some sweet functions/loops toward the bottom, a lot of the early code is data curration. 
 setwd("~/PopGhum/Popghum2")
 
 tree=read_tree("exported/PPP2_tree.nwk")
