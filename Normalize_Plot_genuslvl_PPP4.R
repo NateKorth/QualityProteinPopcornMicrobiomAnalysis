@@ -15,9 +15,7 @@ library(ggpubr)
 library(devtools)
 library(dplyr)
 library(tidyverse)
-##Prepare data for correlation analysis at ASV level, remove FBBs!
-#Plates 5 and 6 @16 hour are flipped!! Switch meta data for samples(while leaving sample IDs the Same) 
-#This means don't look or rely on sample IDs!!
+#another messy set of code with a few valuable pieces mixed in, hope you can find something useful!
 
 
 setwd("~/PopGhum/Popghum2/FRLysValidation/")
